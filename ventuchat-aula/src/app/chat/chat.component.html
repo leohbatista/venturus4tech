@@ -1,6 +1,6 @@
-<div class="messageList">
+<div class="messageList" #scroll>
   <ul id="messageList">
-    <li *ngFor="let message of messageList">
+    <li *ngFor="let message of messageList" [ngClass]="{'my-message': isMyMessage(message.name)}">
       <div class="message">
         <div class='username'>{{ message.name }}</div>
         <div class='text'>{{ message.message }}</div>

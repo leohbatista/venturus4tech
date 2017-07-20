@@ -5,7 +5,7 @@ Curso de férias de 40h oferecido pelo Venturus.
 * 17/07/2017: Apresentação do curso e da empresa. Introdução HTML, CSS e JS.
 * 18/07/2017: Angular - Introdução, Components
 * 19/07/2017: Angular - Services, Modules. NodeJS - Introdução, Express
-* 20/07/2017:
+* 20/07/2017: Integração NodeJS e Angular. Socket.io
 * 21/07/2017:
 
 ##Semana 2: Mobile (Android e iOS)

@@ -44,13 +44,17 @@ textarea {
   padding: 0;
 }
 
-.messageList ul li .message {
+.messageList ul li {
   font-family: sans-serif;
   background-color: white;
   padding: 10px;
   margin-bottom: 5px;
-  width: 70%;
+  width: 55%;
   display: block;
+  float: left;
+}
+
+.messageList ul li.my-message {
   float: right;
 }
 

@@ -17,6 +17,4 @@ export class ChatHeaderComponent {
   getLoginTime(){
     return this.service.time;
   }
-
-
 }

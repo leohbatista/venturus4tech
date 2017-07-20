@@ -1,4 +1,5 @@
 <div class="chat-header">
   <img src="../assets/logo.png">
-  <span class="username">{{ getUsername() }} {{ getLoginTime() | date:"hh:mm a" }}</span>
+  <div class="username">{{ getUsername() }}</div>
+  <div class="usertime">{{ getLoginTime() | date:"hh:mm a" }}</div>
 </div>
