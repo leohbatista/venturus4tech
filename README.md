@@ -9,7 +9,7 @@ Curso de férias de 40h oferecido pelo Venturus.
 * 21/07/2017: Socket.io, MongoDB, Routes no Angular.
 
 ##Semana 2: Mobile (Android e iOS)
-* 24/07/2017:
+* 24/07/2017: Android - Activities, Views, Intent
 * 25/07/2017:
 * 26/07/2017:
 * 27/07/2017:
