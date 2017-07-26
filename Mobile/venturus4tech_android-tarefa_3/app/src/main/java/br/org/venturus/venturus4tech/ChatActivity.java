@@ -84,6 +84,17 @@ public class ChatActivity extends AppCompatActivity {
 
     private void playSound() {
         MediaPlayer mp = MediaPlayer.create(this,R.raw.et_voila);
-        mp.start();
+        if(mp != null) {
+            mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                @Override
+                public void onCompletion(MediaPlayer mp) {
+                    if(mp != null) {
+                        mp.release();
+                    }
+                }
+            });
+            mp.start();
+        }
+
     }
 }
