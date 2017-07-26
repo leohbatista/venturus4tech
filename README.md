@@ -10,7 +10,7 @@ Curso de férias de 40h oferecido pelo Venturus.
 
 ## Semana 2: Mobile (Android e iOS) ##
 * 24/07/2017: Android - Activities, Views, Intent
-* 25/07/2017:
-* 26/07/2017:
+* 25/07/2017: Android - Layout, Adapter
+* 26/07/2017: Android - Socket.io, Sound
 * 27/07/2017:
 * 28/07/2017:

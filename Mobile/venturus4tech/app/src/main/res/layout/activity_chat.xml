@@ -9,24 +9,44 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:layout_gravity=""
     tools:context="br.org.venturus.venturus4tech.ChatActivity">
 
-    <TextView
-        android:id="@+id/textview_nickname"
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_list"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="bottom"
+        android:padding="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:layout_gravity="center"
-        android:text=""
-        android:layout_marginTop="40dp" />
-    <Button
-        android:id="@+id/button_voltar"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:text="Voltar"
-        android:layout_gravity="center"
-        android:background="#1abc9c"
-        android:textColor="#ffffff"
-        android:textStyle="bold"
-        android:layout_marginTop="40dp" />
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Digite sua mensagem..."
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/button_enviar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Enviar"
+            android:layout_gravity="center"
+            android:background="#1abc9c"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
 
 </LinearLayout>
